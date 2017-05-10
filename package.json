@@ -1,0 +1,36 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Priyank Vasa's portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js",
+    "restart": "pm2 restart index.js",
+    "stop": "pm2 stop index.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryan652/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "priyank",
+    "vasa",
+    "profile",
+    "projects"
+  ],
+  "author": "Priyank Vasa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryan652/Portfolio/issues"
+  },
+  "homepage": "https://github.com/ryan652/Portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "express": "^4.15.2",
+    "helmet": "^3.6.0",
+    "pug": "^2.0.0-rc.1"
+  }
+}
